@@ -358,10 +358,10 @@ module.exports = {
 
 ## Service Worker
 
-The `themeConfig.serviceWorker` option allows you to configure about service worker.
+`themeConfig.serviceWorker` 选项将允许你进行 service worker 相关的配置
 
-::: tip
-Please do not confuse this option with [Config > serviceWorker](../config/README.md#serviceworker), [Config > serviceWorker](../config/README.md#serviceworker) is **site-level**, while this option is **theme-level**.
+::: tip 提示
+请不要将 `themeConfig.serviceWorker` 与 [Config > serviceWorker](../config/README.md#serviceworker) 混淆，[Config > serviceWorker](../config/README.md#serviceworker) 是**站点级别的**，而 `themeConfig.serviceWorker` 是**主题级别的**
 :::
 
 ### Popup UI to refresh contents <Badge text="0.13.0+"/> <Badge text="beta" type="warn"/>
